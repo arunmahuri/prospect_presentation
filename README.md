@@ -73,7 +73,7 @@ curl -X POST "http://127.0.0.1:8000/run" \
 
 
 🖥️ 3. CLI Runner
-python -m src.cli.run_pipeline \
+python -m src.cli.run_orchestrator \
   --prospect-name "Nike" \
   --prospect-url "https://nike.com" \
   --query "Create a tailored sales deck"
